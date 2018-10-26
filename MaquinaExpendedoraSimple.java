@@ -66,6 +66,11 @@ public class MaquinaExpendedoraSimple {
         
     }
     
+    public void vaciarDepositoDinero (int Devolucion) {
+        totalDineroAcumulado = 0;
+       
+    }
+    
     /**
      * Imprime un billete para el cliente actual
      */
